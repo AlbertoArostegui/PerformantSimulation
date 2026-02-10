@@ -37,7 +37,7 @@ public:
 		assert(m_count > 0);
 		m_entries[m_tail] = 0;
 		m_count--;
-		m_tail = (m_tail == N) ? m_tail = 0 : m_tail + 1;
+		m_tail = (m_tail == N) ? 0 : m_tail + 1;
 	}
 
 	void print() {
